@@ -57,11 +57,12 @@ Ya los datos están limpios, ahora es tiempo de investigar las relaciones que ha
 
 
 <p align="center">
-  <img src="src\Nube.png" >
+  <img src="src\nube.png" >
 </p>
-
+<hr>
+</hr>
 <p align="center">
-  <img src="src\Histograma.png" >
+  <img src="src\histograma.png" >
 </p>
 
 
