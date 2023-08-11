@@ -8,7 +8,7 @@ df_modelo = pd.read_csv('df_modelo.csv')
 
 # Entrenamiento del modelo de recomendación
 tfidf = TfidfVectorizer()
-tfidf_matrix = tfidf.fit_transform(df_clean['title'])
+tfidf_matrix = tfidf.fit_transform(df_modelo['title'])
 matriz_simil = cosine_similarity(tfidf_matrix)
 
 app = FastAPI()
