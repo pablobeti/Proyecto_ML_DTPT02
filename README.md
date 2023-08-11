@@ -138,7 +138,7 @@ Deben crear 6 funciones para los endpoints que se consumirán en la API, recuerd
 
 Aquí encontrarás información adicional y recursos relacionados con nuestro proyecto:
 
-1. `Video explicativo:` Se ha creado un [video explicativo](https://www.youtube.com/watch?v=V7I7m5FmO_A&t=38s)  donde te muestro algunas funciones de mi proyecto con el uso de la API.
+1. `Video explicativo:` Se ha creado un [video explicativo](https://drive.google.com/file/d/1Vd93nZD7BDIRv_qwTkMN5B1nZweD1HpG/view?usp=sharing)  donde te muestro algunas funciones de mi proyecto con el uso de la API.
 
 2. `Acceso a la API:` En el Siguiente [enlace de la API](https://proyecto-4x3u.onrender.com/docs) podras encontrar las funciones de este proyecto.
 
