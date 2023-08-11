@@ -3,7 +3,8 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-df_clean = pd.read_csv("df_modelo.csv")
+df_clean = pd.read_csv("movies_df_etl.csv")
+df_modelo = pd.read_csv('df_modelo.csv')
 
 # Entrenamiento del modelo de recomendación
 tfidf = TfidfVectorizer()
@@ -63,10 +64,10 @@ def get_director(nombre_director: str):
     }
 @app.get("/recomendacion/{titulo}")
 def recomendacion(titulo: str):
-    indice_peli = df_clean[df_clean['title'] == titulo].index[0]
+    indice_peli = df_modelo[df_modelo['title'] == titulo].index[0]
     sim_scores = list(enumerate(matriz_simil[indice_peli]))
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
-    top_pelis_simil = [df_clean.iloc[sim_score[0]]['title'] for sim_score in sim_scores[1:6]]
+    top_pelis_simil = [df_modelo.iloc[sim_score[0]]['title'] for sim_score in sim_scores[1:6]]
     return {
         'titulo': titulo,
         'recomendaciones': top_pelis_simil
