@@ -115,9 +115,6 @@ Deben crear 6 funciones para los endpoints que se consumirán en la API, recuerd
 #### Para ello usaremos una version acotada del DataFrame, tomando 5.000 peliculas por su popularidad, para poder presentar funcionando este MVP Project.
 
 
-<p align="center">
-  <img src="src\cine.jpg" >
-</p>
 
 
 
