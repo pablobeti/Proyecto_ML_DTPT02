@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-df_clean = pd.read_csv("movies_dataset_clean.csv")
+df_clean = pd.read_csv("movies_df_etl.csv")
 
 # Entrenamiento del modelo de recomendación
 tfidf = TfidfVectorizer()
