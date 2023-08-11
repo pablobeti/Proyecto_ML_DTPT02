@@ -31,9 +31,9 @@ def franquicia(Franquicia: str):
     franquicia_movies = df_clean[df_clean['production_companies'].str.contains(Franquicia, na=False)]
     peliculas = franquicia_movies.shape[0]
     ganancia_total = franquicia_movies['revenue'].sum()
-    ganancia_total = "{:,}".format(round(ganancia))
+    ganancia_total = "{:,}".format(round(ganancia_total))
     ganancia_promedio = franquicia_movies['revenue'].mean()
-    ganancia_promedio = "{:,}".format(round(promedio))
+    ganancia_promedio = "{:,}".format(round(ganancia_promedio))
     return f"La franquicia {Franquicia} posee {peliculas} película(s), una ganancia total de USD {ganancia_total} y una ganancia promedio de USD {ganancia_promedio}"
 @app.get("/peliculas_pais/{Pais}")
 def peliculas_pais(Pais: str):
