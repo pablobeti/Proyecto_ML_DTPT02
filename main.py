@@ -28,7 +28,7 @@ def peliculas_duracion(Pelicula: str):
     return f"Duración: {duracion}. Año: {anio}"
 @app.get("/franquicia/{Franquicia}")
 def franquicia(Franquicia: str):
-    franquicia_movies = df_clean[df_clean['belongs_to_collection'].str.contains(Franquicia, na=False)]
+    franquicia_movies = df_clean[df_clean['production_companies'].str.contains(Franquicia, na=False)]
     peliculas = franquicia_movies.shape[0]
     ganancia_total = franquicia_movies['revenue'].sum()
     ganancia_promedio = franquicia_movies['revenue'].mean()
