@@ -139,7 +139,7 @@ Aquí encontrarás información adicional y recursos relacionados con nuestro pr
 
 2. `Acceso a la API:` En el Siguiente [enlace de la API](https://proyecto-4x3u.onrender.com/docs) podras encontrar las funciones de este proyecto.
 
-3. `Obtención de datos originales:` Si te interesa en obtener acceso a los datos originales utilizados en este proyecto de análisis, puedes ir al siguiente [enlace de descarga](https://drive.google.com/drive/folders/1nvSjC2JWUH48o3pb8xlKofi8SNHuNWeu) para que puedas explorar y analizar los datos por tu cuenta.
+3. `Obtención de datos originales:` Si te interesa en obtener acceso a los datos originales utilizados en este proyecto de análisis, puedes ir al siguiente [enlace de descarga](https://drive.google.com/drive/folders/1mfUVyP3jS-UMdKHERknkQ4gaCRCO2e1v) para que puedas explorar y analizar los datos por tu cuenta.
 
 ##
 #### Gracias por visitar esta propuesta Projecto MVP - Sistema recomendacion peliculas
